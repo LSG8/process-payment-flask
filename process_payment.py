@@ -7,7 +7,7 @@ Main page
 from cheapPayment import CheapPayment
 from expensivePayment import ExpensivePayment
 from premiumPayment import PremiumPayment
-import ast, re
+import ast
 import flask
 from flask import Flask, render_template, request, redirect, url_for
 from flask_api import status
